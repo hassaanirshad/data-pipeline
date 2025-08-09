@@ -1,3 +1,6 @@
 [submodule "five-g/attack/blind-dos/SPADE"]
 	path = five-g/attack/blind-dos/SPADE
 	url = https://github.com/ashish-gehani/SPADE.git
+[submodule "five-g/attack/blind-dos/OAI-5G-Docker"]
+	path = five-g/attack/blind-dos/OAI-5G-Docker
+	url = https://github.com/5GSEC/OAI-5G-Docker
