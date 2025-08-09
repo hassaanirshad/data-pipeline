@@ -1,0 +1,3 @@
+[submodule "five-g/attack/blind-dos/SPADE"]
+	path = five-g/attack/blind-dos/SPADE
+	url = https://github.com/ashish-gehani/SPADE.git
