@@ -63,6 +63,23 @@ make KERNEL_MODULES=true
 popd
 ```
 
+### B.4. PIDSMaker
+
+1. Following the docker install section [here](https://ubc-provenance.github.io/PIDSMaker/ten-minute-install/#docker-install).
+2. Create .env file
+```
+./bin/create-PIDSMaker-env.sh
+```
+3. Create PIDS docker container
+```
+pushd PIDSMaker
+mkdir -p artifacts data
+source .env
+docker compose -p postgres -f compose-postgres.yml up -d --build
+docker compose -f compose-pidsmaker.yml up -d --build
+popd
+```
+
 ## C. Data collection
 
 This section describes how to run the attack and capture the activity.
