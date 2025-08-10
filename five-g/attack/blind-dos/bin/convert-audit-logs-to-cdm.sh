@@ -109,9 +109,14 @@ function spade_execute_cmd () {
 }
 
 function spade_add_cdm_storage () {
+    local with_hex_ids=1
+
     local cmd=""
     cmd="${cmd}add storage CDM "
     cmd="${cmd}ssl=false "
+    if [ "${with_hex_ids}" -eq 1 ]; then
+        cmd="${cmd}hexUUIDs=true "
+    fi
     cmd="${cmd}output=${CDM_OUTPUT_FILE} "
     spade_execute_cmd "${cmd}"
     wait_for_text_in_spade_log_file \
