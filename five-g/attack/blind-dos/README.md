@@ -64,10 +64,10 @@ popd
 
 ### C.1. Archive audit logs
 
-Archive existing audit logs manually or use:
+Archive existing system audit logs manually or use:
 
 ```
-./bin/archive-audit-logs.sh
+./bin/archive-system-audit-logs.sh
 ```
 
 ### C.2. Start auditing
@@ -100,4 +100,14 @@ Copy audit logs from `/var/log/audit` to `./logs/audit`.
 
 ```
 ./bin/collect-audit-logs.sh
+```
+
+## D. Data conversion
+
+### D.1. Convert audit logs to CDM
+
+Create CDM avro from collected audit logs using SPADE.
+
+```
+./bin/convert-audit-logs-to-cdm.sh
 ```

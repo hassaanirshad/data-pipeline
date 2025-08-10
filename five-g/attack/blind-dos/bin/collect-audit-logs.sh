@@ -10,4 +10,4 @@ mkdir -p "${DST_LOGS_DIR}"
 sudo cp "${SRC_LOGS_DIR}"/audit.log* "${DST_LOGS_DIR}"/
 
 # Change ownership for ease of accessibility later on.
-sudo chown ${USER}:${USER} "${DST_LOGS_DIR}/*"
+sudo chown ${USER}:${USER} "${DST_LOGS_DIR}"/*
