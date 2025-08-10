@@ -4,3 +4,6 @@
 [submodule "five-g/attack/blind-dos/OAI-5G-Docker"]
 	path = five-g/attack/blind-dos/OAI-5G-Docker
 	url = https://github.com/5GSEC/OAI-5G-Docker
+[submodule "five-g/attack/blind-dos/PIDSMaker"]
+	path = five-g/attack/blind-dos/PIDSMaker
+	url = https://github.com/ubc-provenance/PIDSMaker.git

@@ -8,7 +8,7 @@ AUDIT_LOGS_DIR="${ROOT_DIR}/logs/audit"
 SPADE_DIR="${ROOT_DIR}/SPADE"
 SPADE_LOG_FILE="${SPADE_DIR}/log/current.log"
 
-CDM_OUTPUT_FILE="${CDM_DIR}/output.bin"
+CDM_OUTPUT_FILE="${CDM_DIR}/output.json"
 AUDIT_LOG_FILE="${AUDIT_LOGS_DIR}/audit.log"
 
 
