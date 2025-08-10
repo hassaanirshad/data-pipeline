@@ -8,7 +8,8 @@ AUDIT_LOGS_DIR="${ROOT_DIR}/output/audit_logs"
 SPADE_DIR="${ROOT_DIR}/SPADE"
 SPADE_LOG_FILE="${SPADE_DIR}/log/current.log"
 
-CDM_OUTPUT_FILE="${CDM_DIR}/output.json"
+# CDM_OUTPUT_FILE="${CDM_DIR}/output.json"
+CDM_OUTPUT_FILE="${CDM_DIR}/output.bin"
 AUDIT_LOG_FILE="${AUDIT_LOGS_DIR}/audit.log"
 
 
@@ -109,7 +110,8 @@ function spade_execute_cmd () {
 }
 
 function spade_add_cdm_storage () {
-    local with_hex_ids=1
+    # local with_hex_ids=1
+    local with_hex_ids=0
 
     local cmd=""
     cmd="${cmd}add storage CDM "
