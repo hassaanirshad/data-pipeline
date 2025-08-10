@@ -1,5 +1,7 @@
 # 5G blind DOS attack data pipeline
 
+This README describes how to capture OS activity for 5G blind DOS attack, and do analysis on the captured data.
+
 This data pipeline uses:
 
 1. [OAI-5G-Docker](https://github.com/5GSEC/OAI-5G-Docker) repository for running [5G Blind DOS attack](https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Hongil_Kim_13_-_Touching_the_Untouchables.pdf),
@@ -62,6 +64,8 @@ popd
 
 ## C. Data collection
 
+This section describes how to run the attack and capture the activity.
+
 ### C.1. Archive audit logs
 
 Archive existing system audit logs manually or use:
@@ -103,6 +107,8 @@ Copy audit logs from `/var/log/audit` to `./logs/audit`.
 ```
 
 ## D. Data conversion
+
+This section describes how to convert the data to do analysis on it.
 
 ### D.1. Convert audit logs to CDM
 
