@@ -6,7 +6,8 @@
 
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )"/../ && pwd )"
 
-ACTIVITY_LOG="${ROOT_DIR}/output/run-activity.log"
+OUTPUT_DIR="${ROOT_DIR}/output"
+ACTIVITY_LOG="${OUTPUT_DIR}/run-activity.log"
 
 OAI_5G_DOCKER_DIR="${ROOT_DIR}/OAI-5G-Docker"
 OAI_5G_DOCKER_DEMO_DIR="${OAI_5G_DOCKER_DIR}/sbir-p1-demo/nr-rfsim"
@@ -34,6 +35,7 @@ function clear_activity_log () {
 }
 
 function setup () {
+    mkdir -p "${OUTPUT_DIR}"
     clear_activity_log
 }
 
