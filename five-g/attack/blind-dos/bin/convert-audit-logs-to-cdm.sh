@@ -2,8 +2,8 @@
 
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )"/../ && pwd )"
 
-CDM_DIR="${ROOT_DIR}/cdm"
-AUDIT_LOGS_DIR="${ROOT_DIR}/logs/audit"
+CDM_DIR="${ROOT_DIR}/output/cdm"
+AUDIT_LOGS_DIR="${ROOT_DIR}/output/audit_logs"
 
 SPADE_DIR="${ROOT_DIR}/SPADE"
 SPADE_LOG_FILE="${SPADE_DIR}/log/current.log"

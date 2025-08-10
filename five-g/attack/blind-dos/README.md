@@ -12,7 +12,7 @@ This data pipeline uses:
 
 1. Ubuntu 20.04 (kernel <= 5.4.0 x86_64)
 2. Memory >= 16 GB
-3. Storage >= 60 GB
+3. Storage >= 100 GB
 
 **Note**: It is assumed that the requirements for the repositories used have been met.
 
@@ -108,6 +108,8 @@ Start, and stop activity i.e. the start the attack, wait for 'X' minutes, and st
 ./bin/run-activity.sh
 ```
 
+**Note**: A log file `./output/run-activity.log` is written with time markers for when the attack was started and stopped.
+
 ### C.4. Stop auditing
 
 Stop auditing, and additionally get notified of any loss in audit records.
@@ -118,7 +120,7 @@ Stop auditing, and additionally get notified of any loss in audit records.
 
 ### C.5. Collect audit logs
 
-Copy audit logs from `/var/log/audit` to `./logs/audit`.
+Copy audit logs from `/var/log/audit` to `./output/audit_logs`.
 
 ```
 ./bin/collect-audit-logs.sh

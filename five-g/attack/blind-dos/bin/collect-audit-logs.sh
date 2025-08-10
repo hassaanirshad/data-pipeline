@@ -2,7 +2,7 @@
 
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )"/../ && pwd )"
 SRC_LOGS_DIR="/var/log/audit"
-DST_LOGS_DIR="${ROOT_DIR}/logs/audit"
+DST_LOGS_DIR="${ROOT_DIR}/output/audit_logs"
 
 mkdir -p "${DST_LOGS_DIR}"
 
