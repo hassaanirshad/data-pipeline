@@ -4,10 +4,10 @@ This README describes how to capture OS activity for 5GLatte attack scripts, and
 
 This data pipeline uses:
 
-1. [5GLatte](https://arxiv.org/abs/2312.01681) attack scripts for running 5G attacks,
+1. [TODO] [5GLatte](https://arxiv.org/abs/2312.01681) attack scripts for running 5G attacks,
 2. [SPADE](https://github.com/ashish-gehani/spade) for data collection,
-3. [srsRan](https://github.com/srsRAN/srsRAN_Project.git) for 5G instance.
-4. [Open5GS](https://github.com/open5gs/open5gs)
+3. [srsRan](https://github.com/srsRAN/srsRAN_Project.git) for 5G CU & DU,
+4. [Open5GS](https://github.com/open5gs/open5gs) for 5G core and EPC.
 <!-- 3. [PIDSMaker](https://github.com/ubc-provenance/PIDSMaker.git) for data analysis -->
 
 ## A. Requirements
