@@ -6,7 +6,8 @@ This data pipeline uses:
 
 1. [TODO] [5GLatte](https://arxiv.org/abs/2312.01681) attack scripts for running 5G attacks,
 2. [SPADE](https://github.com/ashish-gehani/spade) for data collection,
-3. [srsRan](https://github.com/srsRAN/srsRAN_Project.git) for 5G CU & DU,
+3. [srsRAN](https://github.com/srsRAN/srsRAN_Project.git) for 5G CU & DU,
+* [srsRAN with K8s](https://docs.srsran.com/projects/project/en/latest/tutorials/source/k8s/source/index.html) deploy srsRAN with emulated RU.
 4. [Open5GS](https://github.com/open5gs/open5gs) for 5G core and EPC.
 <!-- 3. [PIDSMaker](https://github.com/ubc-provenance/PIDSMaker.git) for data analysis -->
 
