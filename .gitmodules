@@ -8,11 +8,11 @@
 	path = five-g/attack/blind-dos/PIDSMaker
 	url = https://github.com/hassaanirshad/PIDSMaker.git
 [submodule "five-g/attack/5glatte/srsRAN_Project"]
-	path = five-g/attack/5glatte/srsRAN_Project
+	path = five-g/attack/5g-slice-escape/srsRAN_Project
 	url = https://github.com/srsRAN/srsRAN_Project.git
 [submodule "five-g/attack/5glatte/SPADE"]
-	path = five-g/attack/5glatte/SPADE
+	path = five-g/attack/5g-slice-escape/SPADE
 	url = https://github.com/ashish-gehani/SPADE.git
 [submodule "five-g/attack/5glatte/Open5GS"]
-	path = five-g/attack/5glatte/Open5GS
+	path = five-g/attack/5g-slice-escape/Open5GS
 	url = https://github.com/open5gs/open5gs

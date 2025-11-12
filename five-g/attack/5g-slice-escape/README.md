@@ -1,15 +1,13 @@
-# 5GLatte attack data pipeline
+# 5G slice escape attack data pipeline
 
-This README describes how to capture OS activity for 5GLatte attack scripts, and do analysis on the captured data.
+This README describes how to capture OS activity for 5G slice escape attack scripts, and do analysis on the captured data.
 
 This data pipeline uses:
 
-1. [TODO] [5GLatte](https://arxiv.org/abs/2312.01681) attack scripts for running 5G attacks,
-2. [SPADE](https://github.com/ashish-gehani/spade) for data collection,
-3. [srsRAN](https://github.com/srsRAN/srsRAN_Project.git) for 5G CU & DU,
+1. [SPADE](https://github.com/ashish-gehani/spade) for data collection,
+2. [srsRAN](https://github.com/srsRAN/srsRAN_Project.git) for 5G CU & DU,
 * [srsRAN with K8s](https://docs.srsran.com/projects/project/en/latest/tutorials/source/k8s/source/index.html) deploy srsRAN with emulated RU.
-4. [Open5GS](https://github.com/open5gs/open5gs) for 5G core and EPC.
-<!-- 3. [PIDSMaker](https://github.com/ubc-provenance/PIDSMaker.git) for data analysis -->
+3. [Open5GS](https://github.com/open5gs/open5gs) for 5G core and EPC.
 
 ## A. Requirements
 
@@ -25,7 +23,7 @@ This data pipeline uses:
 
 Make sure that submodules are up-to-date.
 ```
-pushd ./five-g/attack/5glatte
+pushd ./five-g/attack/5g-slice-escape
 git submodule update --recursive --init .
 ```
 
