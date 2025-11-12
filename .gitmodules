@@ -10,3 +10,6 @@
 [submodule "five-g/attack/5glatte/srsRAN_Project"]
 	path = five-g/attack/5glatte/srsRAN_Project
 	url = https://github.com/srsRAN/srsRAN_Project.git
+[submodule "five-g/attack/5glatte/SPADE"]
+	path = five-g/attack/5glatte/SPADE
+	url = https://github.com/ashish-gehani/SPADE.git
