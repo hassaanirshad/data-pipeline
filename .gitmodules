@@ -13,3 +13,6 @@
 [submodule "five-g/attack/5glatte/SPADE"]
 	path = five-g/attack/5glatte/SPADE
 	url = https://github.com/ashish-gehani/SPADE.git
+[submodule "five-g/attack/5glatte/Open5GS"]
+	path = five-g/attack/5glatte/Open5GS
+	url = https://github.com/open5gs/open5gs

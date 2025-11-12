@@ -7,6 +7,7 @@ This data pipeline uses:
 1. [5GLatte](https://arxiv.org/abs/2312.01681) attack scripts for running 5G attacks,
 2. [SPADE](https://github.com/ashish-gehani/spade) for data collection,
 3. [srsRan](https://github.com/srsRAN/srsRAN_Project.git) for 5G instance.
+4. [Open5GS](https://github.com/open5gs/open5gs)
 <!-- 3. [PIDSMaker](https://github.com/ubc-provenance/PIDSMaker.git) for data analysis -->
 
 ## A. Requirements
@@ -23,6 +24,7 @@ This data pipeline uses:
 
 Make sure that submodules are up-to-date.
 ```
+pushd ./five-g/attack/5glatte
 git submodule update --recursive --init .
 ```
 
@@ -61,7 +63,11 @@ cmake ../
 make -j $(nproc)
 mkdir install
 make install DESTDIR=${PWD}/install
-export PATH="/home/ubuntu/data-pipeline/five-g/attack/5glatte/srsRAN_Project/build/install/usr/local/bin:${PATH}"
+export PATH="${PWD}/install/usr/local/bin:${PATH}"
 popd
 popd
 ```
+
+### B.5. Open5GS
+
+Install for your Ubuntu release by following the steps [here](https://open5gs.org/open5gs/docs/guide/02-building-open5gs-from-sources/).
