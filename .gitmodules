@@ -7,3 +7,6 @@
 [submodule "five-g/attack/blind-dos/PIDSMaker"]
 	path = five-g/attack/blind-dos/PIDSMaker
 	url = https://github.com/hassaanirshad/PIDSMaker.git
+[submodule "five-g/attack/5glatte/srsRAN_Project"]
+	path = five-g/attack/5glatte/srsRAN_Project
+	url = https://github.com/srsRAN/srsRAN_Project.git
